@@ -1,0 +1,10 @@
+com\alcashop\product_service\dto\ProductRequest$ProductRequestBuilder.class
+com\alcashop\product_service\service\ProductService.class
+com\alcashop\product_service\dto\ProductResponse$ProductResponseBuilder.class
+com\alcashop\product_service\model\Product$ProductBuilder.class
+com\alcashop\product_service\repository\ProductRepository.class
+com\alcashop\product_service\controller\ProductController.class
+com\alcashop\product_service\dto\ProductResponse.class
+com\alcashop\product_service\dto\ProductRequest.class
+com\alcashop\product_service\model\Product.class
+com\alcashop\product_service\ProductServiceApplication.class
