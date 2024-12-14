@@ -24,6 +24,15 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
-      # build the App
-      - name: Build with Maven
-        run: mvn clean install
+      # build the App and run the test
+      - name: Build and run test with Maven
+        run: mvn clean verify
+
+      # Verify the test results
+      - name: archive Test results
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: test-results
+          path: target/surefire-reports/
+
